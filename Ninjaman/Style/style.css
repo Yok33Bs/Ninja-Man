@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+    background-color: rgb(63, 63, 63);
+}
+.bungee-spice-regular {
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.worldDict{
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    display: inline-block;
+}
+.wall {
+    background-color: rgb(200, 106, 30);
+}
+.sushi {
+    background-image: url(./IMG/sushi.png);
+    background-size: contain;
+}
+.onigiri {
+    background-image: url(./IMG/onigiri.png);
+    background-size: contain;
+}
+#ninja {
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background-image: url(./IMG/ninja.gif);
+    background-size: contain;
+    position: absolute;
+}
+#score{
+    position: fixed;
+    top: 300px;
+    font-size: 40px;
+}
